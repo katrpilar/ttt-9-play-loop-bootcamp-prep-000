@@ -39,7 +39,7 @@ end
 def play(board)
   @i = 0
   until i == 9
-    turn(board)
     i += 1
+    turn(board)
   end
 end
